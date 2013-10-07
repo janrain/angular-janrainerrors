@@ -1,0 +1,25 @@
+{
+  "name": "angular-janrainerrors",
+  "version": "0.0.1",
+  "authors": [
+    "Joe Moon <joe@xoxomoon.com>"
+  ],
+  "description": "Angular module for Janrain error-handling",
+  "main": "janrainerrors.js",
+  "dependencies": {
+    "angular": ">=1.0.6"
+  },
+  "keywords": [
+    "angular",
+    "janrain"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
