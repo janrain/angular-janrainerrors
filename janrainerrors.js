@@ -59,6 +59,9 @@ app.factory('janrainErrorsSvc', function($route, $location) {
       httpStatus = res.status;
     }
 
+    // ignore weird angular 'HTTP 0' errors
+    if (httpStatus === 0) { return; }
+
     error.type = 'HTTP ' + httpStatus;
     error.title = 'HTTP ' + httpStatus + ' Error';
     error.body = 'There was an error handling your request.';
