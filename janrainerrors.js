@@ -1,7 +1,7 @@
 'use strict';
 var app = angular.module('janrainErrors', []);
 
-app.factory('janrainErrorsSvc', function($route, $location) {
+app.factory('janrainErrorsSvc', function($location) {
 
   var errorArray = [];
 
